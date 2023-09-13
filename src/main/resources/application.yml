@@ -1,0 +1,24 @@
+## Server properties
+server:
+  port: 8080
+
+## Source Database Properties
+customer:
+  datasource:
+    host: localhost
+    port: 3305
+    database: customerdb2
+    username: root
+    password: 
+
+ ## Logging properties
+logging:
+  level:
+    root: INFO
+#    io:
+#      debezium:
+#        mysql:
+#          BinlogReader: INFO
+    guru:
+      bonacci:
+        debezium: DEBUG
